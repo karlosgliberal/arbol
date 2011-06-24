@@ -1,0 +1,11 @@
+h2 Di Árbol 
+  #uno  
+    <canvas id="canvas"></canvas>
+
+#formularios.gastos
+  form(method='post', action='/locales')
+    input(name='_method', value='post', type='hidden')
+    input(type="text", x-webkit-speech speech onwebkitspeechchange="onChange()", lang="es", id="voz")
+
+#creditos
+  p Jugando con html5 y el tema de la voz y con las librerias Snake sacadas de aquí http://kennethjorgensen.com/
